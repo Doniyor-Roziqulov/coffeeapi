@@ -1,5 +1,6 @@
 .content {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -11,11 +12,11 @@
 }
 
 .content h1 {
-  color: rgb(50, 90, 92);
+    color: rgb(50, 90, 92);
 }
 
 .content p {
-  color: rgb(40, 57, 90);
+    color: rgb(40, 57, 90);
 }
 
 .content button {
@@ -30,4 +31,13 @@
     border: 2px solid var(--Primary, #ff902b);
     padding: 10px;
     background-color: transparent;
+}
+
+@media only screen and (min-width: 850px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
