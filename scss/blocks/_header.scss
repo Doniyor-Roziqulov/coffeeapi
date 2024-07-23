@@ -1,0 +1,99 @@
+.site-header {
+    background-color: #f6ebda;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar {
+    display: none;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.header-link {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.one-link {
+    color: #ff902b;
+}
+
+.header-form {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 222px;
+    border-radius: 35px;
+    background-color: #fff;
+    padding: 8px 8px 8px 12px;
+}
+
+.header-input {
+    width: 170px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    color: #929292;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-box {
+    display: flex;
+    // width: 278px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 450px) {
+    .header-form {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    .form-box {
+        width: 278px;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .header-navbar {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .site-header {
+        background-image: url(../../images/bg_img_hero1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+}

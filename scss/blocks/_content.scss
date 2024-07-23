@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-sec {
+    padding-top: 50px;
+    height: 85vh;
+    background-color: cornsilk;
+}
+
+.content h1 {
+  color: rgb(50, 90, 92);
+}
+
+.content p {
+  color: rgb(40, 57, 90);
+}
+
+.content button {
+    color: var(--Primary, #ff902b);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    border-radius: 8px;
+    border: 2px solid var(--Primary, #ff902b);
+    padding: 10px;
+    background-color: transparent;
+}
